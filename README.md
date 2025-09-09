@@ -31,7 +31,7 @@
 - Test the installation with:
   ```r
   source("https://raw.githubusercontent.com/ijapesigan/dynr-install-windows/refs/heads/main/dynr-demo.R")
-- A sucessful installation with output the following:
+- A sucessful installation will output the following:
   ```r
   Coefficients:
            Estimate Std. Error t value ci.lower ci.upper Pr(>|t|)    
