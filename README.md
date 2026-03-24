@@ -2,22 +2,22 @@
 
 ## 1. Install R
 - Download R for Windows from:  
-  <https://cloud.r-project.org/bin/windows/base/R-4.5.2-win.exe>  
-- Double-click the installer `R-4.5.2-win.exe`.  
+  <https://cloud.r-project.org/bin/windows/base/R-4.5.3-win.exe>  
+- Double-click the installer `R-4.5.3-win.exe`.  
 - If you do not have administrative privileges, install R to:  
-  `C:\Users\USERNAME\AppData\Local\Programs\R\R-4.5.2`
+  `C:\Users\USERNAME\AppData\Local\Programs\R\R-4.5.3`
 
 ## 2. Install Rtools
 - Download Rtools for Windows from:  
-  <https://cloud.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-6691-6492.exe>  
-- Double-click the installer `rtools45-6691-6492.exe`.  
+  <https://cloud.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-6768-6492.exe>  
+- Double-click the installer `rtools45-6768-6492.exe`.  
 - Without administrative privileges, install Rtools to:  
   `C:\Users\USERNAME\rtools45`
 
 ## 3. Add Rtools to the Path
 1. Click the Windows button, type, and open **“Edit environment variables for your account.”**  
 2. Select `Path` → **Edit…** → **New** and add:
-   - `C:\Users\USERNAME\AppData\Local\Programs\R\R-4.5.2\bin`
+   - `C:\Users\USERNAME\AppData\Local\Programs\R\R-4.5.3\bin`
    - `C:\Users\USERNAME\rtools45\ucrt64\bin`
    - `C:\Users\USERNAME\rtools45\x86_64-w64-mingw32.static.posix\bin`
 3. Create new environment variables:
